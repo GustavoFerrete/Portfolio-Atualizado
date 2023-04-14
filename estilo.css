@@ -1,0 +1,111 @@
+/* Limpando formatos iniciais
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Links em geral
+*/
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#menu_cabecalho a:hover{
+    color: black;
+    background: white;
+    text-decoration: underline;
+}
+
+
+/* Formatação geral
+*/
+body{
+    background: #09090B;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-size: 3em;
+    color: white;
+}
+
+h2{
+    font-size: 2em;
+    color: white;
+}
+
+h3{
+    font-size: 1.5em;
+    color: #c4c4c4;
+}
+
+/* Parte Superior do código
+*/
+
+#cabecalho{
+    padding: 25px;
+    text-align: center;
+}
+
+#logo_cabecalho{
+    padding: 5px;
+}
+
+#menu_cabecalho{
+    margin-top: 5px;
+    padding: 10px;
+}
+
+/* Fim parte superior
+*/
+
+/*Area Apresentação
+*/
+
+#area_principal_sobremim{
+    margin: 50px auto;
+    padding: 15px;
+}
+
+#lado_esquerdo{
+    width: 400px;
+    margin-top: 50px;
+    float: left;
+}
+
+.botoes{
+    margin: 10px;
+}
+
+.btn_curriculo{
+    background: #00DF5E;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.btn_contato{
+    background: #09090B;
+    color: #f9f9f9;
+    margin: 0 35px;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: #f9f9f9;    
+}
+
+
+#lado_direito{
+    width: 400px;
+    float: right;
+}
+
