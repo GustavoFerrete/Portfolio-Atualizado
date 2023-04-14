@@ -1,0 +1,24 @@
+@media(max-width:1200px)
+{
+    
+    h1{
+        font-size: 2.3em;
+    }
+
+    h3{
+        font-size: 1.3em;
+    }
+
+    #lado_esquerdo{
+        width: 500px;
+    }
+
+    .btn_curriculo, .btn_contato{
+        height: 40px;
+        width: 200px;
+        font-size: 1.4em;
+    }
+
+
+    
+}

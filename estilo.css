@@ -25,12 +25,14 @@ a{
 /* Formatação geral
 */
 body{
+    border: 1px solid green;
     background: #09090B;
     font-size: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1{
+    border: 1px solid red; 
     font-size: 3em;
     color: white;
 }
@@ -65,22 +67,25 @@ h3{
 /* Fim parte superior
 */
 
-/*Area Apresentação
+/*Area 1° Apresentação
 */
 
 #area_principal_sobremim{
+    border: 1px solid red;
     margin: 50px auto;
     padding: 15px;
 }
 
 #lado_esquerdo{
+    border: 1px solid red;  
     width: 400px;
-    margin-top: 50px;
+    margin-top: 60px;
+    padding: 10px;
     float: left;
 }
 
 .botoes{
-    margin: 10px;
+    border: 1px solid red;
 }
 
 .btn_curriculo{
@@ -105,7 +110,38 @@ h3{
 
 
 #lado_direito{
+    border: 1px solid red;
+    text-align: center;
     width: 400px;
+    margin-top: 60px;
     float: right;
 }
 
+.limpar{
+    clear: both;
+    margin-top: 400px;
+}
+
+.titulo_sobre_mim{
+    border: 1px solid red;
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Área 2° Apresentação
+*/
+
+#area_sobre_mim{
+    border: 1px solid green;
+}
+
+.titulo_sobre_mim{
+    border: 1px solid red;
+}
+
+.texto_sobre_mim{
+    border: 1px solid white;
+    color: #c4c4c4;
+    width: 600px;
+    margin: 0 auto;
+}

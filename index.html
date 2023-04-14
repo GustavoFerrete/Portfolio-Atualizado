@@ -4,6 +4,7 @@
         <title>Porfólio - Gustavo Ferrete</title>
         <meta charset="utf-8">
         <link href="estilo.css" rel="stylesheet">
+        <link href="responsive.css" rel="stylesheet">
     </head>
 
     <body>
@@ -14,7 +15,7 @@
             </div>
 
             <div id="menu_cabecalho">
-                <a href="">Sobre Mim</a>
+                <a href="#Sobre">Sobre Mim</a>
                 <a href="">Projetos</a>
                 <a href="">Serviços</a>
                 <a href="">Skills</a>
@@ -33,22 +34,28 @@
 
                     <h3>Desenvolvedor Front-End</h3>
 
-                    <div class="botoes">
-                        
-                        <input type="button" value="Download CV" class="btn_curriculo">
+                    <div class="botoes">                        
+                        <input type="button" value="Download CV" class="btn_curriculo" onclick="window.open('./Curriculo Gustavo Ferrete.pdf')">
                         <input type="button" value="Entrar em contato" class="btn_contato">
-
-
                     </div>
-
-
                 </div>
 
             </div>
 
             <div id="lado_direito">
-                <img src="imagens/sobremim.png">
+                <img width="200px" src="imagens/sobremim.png">
             </div>
+
+        </div>
+
+        <hr class="limpar">
+
+
+        <a name="Sobre"></a>
+        <div id="area_sobre_mim">   
+            <h2 class="titulo_sobre_mim">Sobre mim</h2>
+            
+            <p class="texto_sobre_mim">Meu nome é Gustavo Ferrete Xavier, tenho 22 anos, gradução completa no curso de Logística (jun-22) e atualmente, cursando Análise e Desenvolvimento de Sistemas pela faculdade Eniac. Hoje, estou trabalhando na área a qual conclui meu primeiro curso na faculdade, na Logística, mais precisamente na empresa Solística. Ocupo o cargo de Analista de Inventário, sou responsável pelo controle e acuracidade do estoque. Algumas de minhas atividades são: Geração de inventários rotativos, batimento fiscal entre o estoque do cliente e nosso WMS. Suporte a operação no WMS em cima de todas as dúvidas geradas durante os processos de recebimento, movimentação, reabastecimento, separação e expedição.Estou em busca de minha primeira oportunidade na área de TI, mais precisamente em Desenvolvimento de Sistemas na parte Front-End.</p>
 
 
         </div>
