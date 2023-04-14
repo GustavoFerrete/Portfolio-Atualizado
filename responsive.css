@@ -6,19 +6,18 @@
     }
 
     h3{
-        font-size: 1.3em;
-    }
-
-    #lado_esquerdo{
-        width: 500px;
+        font-size: 1.5em;
     }
 
     .btn_curriculo, .btn_contato{
-        height: 40px;
-        width: 200px;
+        height: 50px;
+        width: 250px;
         font-size: 1.4em;
     }
 
+    .texto_sobre_mim{
+        font-size: 1.4em;
+    }
 
     
 }

@@ -33,18 +33,30 @@ body{
 
 h1{
     border: 1px solid red; 
-    font-size: 3em;
+    font-size: 2em;
     color: white;
 }
 
 h2{
     font-size: 2em;
     color: white;
+    text-align: center;
 }
 
 h3{
     font-size: 1.5em;
     color: #c4c4c4;
+}
+h4{
+    margin-top: 20px;
+}
+
+h5{
+    color:#c4c4c4
+}
+
+#meios_contato h5{
+    cursor: pointer;
 }
 
 /* Parte Superior do código
@@ -78,7 +90,7 @@ h3{
 
 #lado_esquerdo{
     border: 1px solid red;  
-    width: 400px;
+    width: 600px;
     margin-top: 60px;
     padding: 10px;
     float: left;
@@ -95,6 +107,7 @@ h3{
     width: 150px;
     height: 30px;
     border-radius: 15px;
+    cursor: pointer;
 }
 
 .btn_contato{
@@ -106,14 +119,15 @@ h3{
     height: 30px;
     border-radius: 15px;
     border-color: #f9f9f9;    
+    cursor: pointer;
 }
 
 
 #lado_direito{
     border: 1px solid red;
     text-align: center;
-    width: 400px;
-    margin-top: 60px;
+    width: 200px;
+    margin: 60px;
     float: right;
 }
 
@@ -122,21 +136,17 @@ h3{
     margin-top: 400px;
 }
 
+
+/* Área 2° Apresentação
+*/
 .titulo_sobre_mim{
     border: 1px solid red;
     text-align: center;
     margin-top: 100px;
 }
 
-/* Área 2° Apresentação
-*/
-
 #area_sobre_mim{
     border: 1px solid green;
-}
-
-.titulo_sobre_mim{
-    border: 1px solid red;
 }
 
 .texto_sobre_mim{
@@ -144,4 +154,36 @@ h3{
     color: #c4c4c4;
     width: 600px;
     margin: 0 auto;
+}
+
+/* Área 3° Apresentação
+*/
+
+#area_contato{
+    border: 1px solid red;
+    margin-top: 100px;
+}
+
+#meios_contato{
+    border: 1px solid green;
+    margin: 0 auto;
+    width: 1000px;
+    color: white;
+}
+
+.fundo_contato{
+    border: 1px solid red;
+    background-image: url('imagens/fundo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -40px;
+    width: 200px;
+    float: left;
+    padding: 0 20px;
+}
+
+.contato{
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 60px;
 }
