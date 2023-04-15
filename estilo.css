@@ -261,9 +261,10 @@ footer{
 }
 
 .servicos{
+    /*border: 1px solid red;*/
     border-radius: 4px;
     width: 300px;
-    height: 150px;
+    height: 190px;
     background: #6a6a6a4a;
     margin: 5px 95px;
     float: left;
@@ -271,6 +272,7 @@ footer{
 
 .formatar_servico{
     /*border: 1px solid red;*/
+    height: 150px;
     margin: 20px;
 }
 
@@ -281,14 +283,14 @@ footer{
     /*border: 1px solid red;*/
     width: 1000px;
     margin: 0 auto;
-    height: 200px;
+    height: 290px;
 }
 
 .skills{
     text-align: center;
     border-radius: 4px;
     width: 200px;
-    height: 150px;
+    height: 200px;
     background: #6a6a6a4a;
     margin: 5px 64px;
     float: left;
@@ -296,5 +298,5 @@ footer{
 
 .formatar_skills{
     /*border: 1px solid red;*/
-    margin: 20px;
+    margin: 40px;
 }
