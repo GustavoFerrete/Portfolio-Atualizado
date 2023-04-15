@@ -12,12 +12,15 @@
     .btn_curriculo, .btn_contato{
         height: 50px;
         width: 250px;
-        font-size: 1.4em;
+        font-size: 1.3em;
     }
 
     .texto_sobre_mim{
         font-size: 1.4em;
     }
-
     
+    .img_home{
+        margin: 250px 880px;
+        width: 100px;
+    }
 }

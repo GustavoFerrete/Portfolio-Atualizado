@@ -25,16 +25,21 @@ a{
 /* Formatação geral
 */
 body{
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     background: #09090B;
     font-size: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h1{
-    border: 1px solid red; 
+    /*border: 1px solid red;*/ 
     font-size: 2em;
     color: white;
+    text-align: center;
+}
+
+#lado_esquerdo h1{
+    text-align: left;
 }
 
 h2{
@@ -46,9 +51,21 @@ h2{
 h3{
     font-size: 1.5em;
     color: #c4c4c4;
+    margin: 15px 0;
 }
+
+#fundo_servicos h3{
+    font-size: 1.2em;
+    margin: 30px 0px;
+}
+
 h4{
     margin-top: 20px;
+}
+
+#fundo_projeto h4{
+    color: white;
+    margin: 1px;
 }
 
 h5{
@@ -57,6 +74,23 @@ h5{
 
 #meios_contato h5{
     cursor: pointer;
+}
+
+footer{
+    background: #c4c4c4;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+.separar{
+    margin-top: 200px;
+}
+
+.img_home{
+    width: 60px;
+    margin: 250px 1120px;
+    position: fixed;
 }
 
 /* Parte Superior do código
@@ -83,13 +117,13 @@ h5{
 */
 
 #area_principal_sobremim{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin: 50px auto;
     padding: 15px;
 }
 
 #lado_esquerdo{
-    border: 1px solid red;  
+    border: 1px solid red; 
     width: 600px;
     margin-top: 60px;
     padding: 10px;
@@ -97,7 +131,7 @@ h5{
 }
 
 .botoes{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .btn_curriculo{
@@ -122,57 +156,51 @@ h5{
     cursor: pointer;
 }
 
-
 #lado_direito{
-    border: 1px solid red;
-    text-align: center;
-    width: 200px;
+    border: 1px solid red;    
     margin: 60px;
     float: right;
 }
 
 .limpar{
     clear: both;
-    margin-top: 400px;
 }
 
 
 /* Área 2° Apresentação
 */
 .titulo_sobre_mim{
-    border: 1px solid red;
-    text-align: center;
-    margin-top: 100px;
+    /*border: 1px solid red;*/
+    margin-top: 50px;
 }
 
 #area_sobre_mim{
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
 .texto_sobre_mim{
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     color: #c4c4c4;
     width: 600px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 /* Área 3° Apresentação
 */
 
 #area_contato{
-    border: 1px solid red;
-    margin-top: 100px;
+    /*border: 1px solid red;*/
 }
 
 #meios_contato{
-    border: 1px solid green;
-    margin: 0 auto;
+    /*border: 1px solid gold;*/
+    margin: 40px auto;
     width: 1000px;
     color: white;
 }
 
 .fundo_contato{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     background-image: url('imagens/fundo.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -183,7 +211,90 @@ h5{
 }
 
 .contato{
-    border: 1px solid white;
+    /*border: 1px solid white;*/
     text-align: center;
     margin-top: 60px;
+}
+
+/* Área 4° Apresentação
+*/
+
+#area_projetos{
+    /*border: 1px solid orange;*/
+    margin-top: 0px;
+}
+
+#fundo_projeto{
+    /*border: 1px solid cyan;*/
+    width: 1000px;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.projetos{
+    border-radius: 4px;
+    width: 230px;
+    height: 150px;
+    background: #6a6a6a4a;
+    margin: 10px;
+    float: left;
+}
+
+.imagem_projeto{
+    margin: 10px;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+/* Área 5° Apresentação
+*/
+
+#area_servicos{
+    /*border: 1px solid red;*/
+}
+
+#fundo_servicos{
+    /*border: 1px solid orange;*/
+    width: 1000px;
+    margin: 0 auto;
+    height: 250px;
+}
+
+.servicos{
+    border-radius: 4px;
+    width: 300px;
+    height: 150px;
+    background: #6a6a6a4a;
+    margin: 5px 95px;
+    float: left;
+}
+
+.formatar_servico{
+    /*border: 1px solid red;*/
+    margin: 20px;
+}
+
+/*Área 6° Apresentação
+*/
+
+#fundo_skills{
+    /*border: 1px solid red;*/
+    width: 1000px;
+    margin: 0 auto;
+    height: 200px;
+}
+
+.skills{
+    text-align: center;
+    border-radius: 4px;
+    width: 200px;
+    height: 150px;
+    background: #6a6a6a4a;
+    margin: 5px 64px;
+    float: left;
+}
+
+.formatar_skills{
+    /*border: 1px solid red;*/
+    margin: 20px;
 }
